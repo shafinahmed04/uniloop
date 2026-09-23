@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- UniLoop Infinity/Campus Interlocked Loop Motif within 66dp center safe circle (21 to 87) -->
+    <!-- Left Loop Ring -->
+    <path
+        android:pathData="M43,44 C34,44 28,50 28,58 C28,66 34,72 42,72 C50,72 56,66 62,58 L63.5,56 C61,53 58,49 54,46 C51,44.5 47,44 43,44 Z"
+        android:strokeWidth="0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="28"
+                android:startY="44"
+                android:endX="62"
+                android:endY="72"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#38BDF8" />
+                <item android:offset="1.0" android:color="#6366F1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Right Loop Ring -->
+    <path
+        android:pathData="M65,44 C57,44 51,50 45,58 L43.5,60 C46,63 49,67 53,70 C57,71.5 61,72 65,72 C74,72 80,66 80,58 C80,50 74,44 65,44 Z"
+        android:strokeWidth="0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="45"
+                android:startY="44"
+                android:endX="80"
+                android:endY="72"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#818CF8" />
+                <item android:offset="1.0" android:color="#C084FC" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Central Loop Ribbon connection -->
+    <path
+        android:pathData="M54,53 C51,57 47,62 43.5,65 C41.5,63.5 40,61 40,58 C40,53 43,49 47,48 C50,47 52.5,49.5 54,53 Z"
+        android:fillColor="#60A5FA" />
+
+    <path
+        android:pathData="M54,63 C57,59 61,54 64.5,51 C66.5,52.5 68,55 68,58 C68,63 65,67 61,68 C58,69 55.5,66.5 54,63 Z"
+        android:fillColor="#A855F7" />
+
+    <!-- Campus Graduation Cap Motif atop the loops -->
+    <!-- Cap Rhombus Top -->
+    <path
+        android:pathData="M54,26 L69,32 L54,38 L39,32 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Cap Skull Base -->
+    <path
+        android:pathData="M44,34.5 L44,39 C44,42 64,42 64,39 L64,34.5 C61,36 57,36.5 54,36.5 C51,36.5 47,36 44,34.5 Z"
+        android:fillColor="#E2E8F0" />
+
+    <!-- Cap Tassel hanging to the right -->
+    <path
+        android:pathData="M54,32 L71,36 L72,44"
+        android:strokeColor="#FBBF24"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M70,44 L74,44 L72,47 Z"
+        android:fillColor="#F59E0B" />
+
+</vector>
